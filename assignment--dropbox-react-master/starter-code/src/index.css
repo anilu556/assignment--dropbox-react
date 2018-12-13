@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Karla", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.container {
+  display: flex;
+  flex: wrap;
+}
+
+.leftbar{
+  background-color: #F7F9FA;
+  width: 25%;
+}
+
+.fa-dropbox{
+  color: #0064E8;
+  margin-left: 30px;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+li {
+  list-style: none;
+  color: #768393;
+  margin-bottom: 10px;
+}
+
+h4{
+  color: #768393;
+  border-bottom: 1px solid #efefef;
+  padding: 10px;
+}
+.sidebar{
+  background-color: #F7F9FA;
+  width: 25%;
+}
+
+.file__container{
+  width: 50%;
+  margin: 50px;
+}
+
+
+.file__item{
+  list-style: none;
+  border-bottom: 1px solid #efefef;
+  padding: 10px;
+}
+
+.file__icon{
+  color: #0064E8;
+  margin-right: 15px;
+}
+
+.grid, .grid--expanded{
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa{
+  padding: 20px;
+  border-bottom: 1px solid #e8e9ea ;
+  background-color: #F7F9FA;
+  font-size: 18px;
+}
+
+.file__button{
+  background-color: none;
+  border: none;
+  width: 50px;
+  height: 50px;
+
+}
+
+.fa-download{
+  padding: 10px;
+  background-color: #0064E8;
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+
+.file__box ul{
+  padding: 0;
+}
+
+.file__search{
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid #bababa;
+  padding: 10px;
+}
