@@ -5,7 +5,7 @@ class File extends Component {
   render() {
 
     return (
-      
+
       <li className="file__item">
     <div className="grid grid--expanded">
       <div className="grid">
@@ -17,7 +17,7 @@ class File extends Component {
           <span>{this.props.date} · {this.props.cat}</span>
         </p>
       </div>
-      <button className="file__button">
+      <button className="file__button" onClick={ () => this.downButton() }>
         <i className="fa fa-download"></i>
       </button>
     </div>

@@ -29,6 +29,11 @@ a {
   flex: wrap;
 }
 
+.container__archives{
+  width: 75%;
+  display: flex;
+}
+
 .leftbar{
   background-color: #F7F9FA;
   width: 25%;
@@ -52,13 +57,18 @@ h4{
   border-bottom: 1px solid #efefef;
   padding: 10px;
 }
-.sidebar{
-  background-color: #F7F9FA;
-  width: 25%;
+
+h3{
+  padding: 10px;
 }
 
-.file__container{
-  width: 50%;
+.container__downloads{
+  background-color: #F7F9FA;
+  width: 40%;
+}
+
+.container__files{
+  width: 60%;
   margin: 50px;
 }
 
@@ -103,13 +113,10 @@ h4{
 }
 
 
-.file__box ul{
-  padding: 0;
-}
-
 .file__search{
   width: 100%;
   border-radius: 20px;
   border: 1px solid #bababa;
   padding: 10px;
+  margin-bottom: 10px;
 }

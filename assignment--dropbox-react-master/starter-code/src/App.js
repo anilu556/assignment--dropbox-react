@@ -10,7 +10,6 @@ class App extends Component {
         <React.Fragment>
           <Leftbar />
           <Home data = {this.props.data}/>
-          <Sidebar />
         </React.Fragment>
       </div>
     );
